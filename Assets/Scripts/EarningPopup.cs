@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class EarningPopup : MonoBehaviour
 {
 
     public Slider GoldSlider;
-    public DOText GoldText;
+    public Text GoldText;
 
     public Slider GemSlider;
-    public TMP_Text GemText;
+    public Text GemText;
     void Start()
     {
-        transform.DOMoveX(2, 1);
-
-        GoldTextz.DOText("465", 3f, false, ScrambleMode.Numerals, "0123456789").From("0");
+        GoldText.DOText("465", 3f, false, ScrambleMode.Numerals, "0").From("0");
+        GemText.DOText("465", 3f, false, ScrambleMode.Numerals, "0").From("0");
     }
 
     void Update()
