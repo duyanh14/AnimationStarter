@@ -472,10 +472,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1169753998}
   m_HandleRect: {fileID: 743332761}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 1000
+  m_MaxValue: 6000
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1000
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -607,10 +607,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca8bdcdd45e3be428ab7ece7e72a692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GoldSlider: {fileID: 686068638}
-  GoldText: {fileID: 2056734308}
-  GemSlider: {fileID: 930771585}
-  GemText: {fileID: 1287857087}
+  goldSlider: {fileID: 686068638}
+  goldText: {fileID: 2056734308}
+  gemSlider: {fileID: 930771585}
+  gemText: {fileID: 1287857087}
 --- !u!114 &718539264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1076,10 +1076,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1520124461}
   m_HandleRect: {fileID: 106604077}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 20
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 20
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1314,7 +1314,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 0
 --- !u!222 &1287857088
 CanvasRenderer:
   m_ObjectHideFlags: 0
