@@ -429,7 +429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 386e8d6579d5adc4087ebfb882046158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openPopup: {fileID: 2135267229}
+  popup: {fileID: 1605625940}
+  openPopupBtn: {fileID: 2135267229}
+  closePopupBtn: {fileID: 815116593}
 --- !u!1 &317170405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,6 +1547,8 @@ GameObject:
   - component: {fileID: 1605625937}
   - component: {fileID: 1605625939}
   - component: {fileID: 1605625938}
+  - component: {fileID: 1605625940}
+  - component: {fileID: 1605625941}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -1586,7 +1590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.0754717, g: 0.029547881, b: 0.029547881, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1611,6 +1615,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605625936}
   m_CullTransparentMesh: 1
+--- !u!114 &1605625940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605625936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca8bdcdd45e3be428ab7ece7e72a692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldSlider: {fileID: 2137635097}
+  goldText: {fileID: 881166460}
+  gemSlider: {fileID: 1904587793}
+  gemText: {fileID: 599540143}
+--- !u!95 &1605625941
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605625936}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab76cfbf8de1bc747934a42cc59b89d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1816156323
 GameObject:
   m_ObjectHideFlags: 0
